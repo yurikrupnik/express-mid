@@ -12,7 +12,7 @@ only-deploy-tags: &only-deploy-tags
     tags:
       only: /^v.*/
     branches:
-      only: master
+      ignore: /.*/
 
 jobs:
   build:
