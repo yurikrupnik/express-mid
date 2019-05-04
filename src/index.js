@@ -3,7 +3,6 @@ const f = (req, res, next) => {
         res.status(200).json({ status: 1 });
     }
     return next();
-
 };
 
 export default f;
