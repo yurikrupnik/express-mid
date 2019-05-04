@@ -1,0 +1,56 @@
+{
+  "name": "express-mid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "module": "dist/main.js",
+  "sideEffects": false,
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "webpack --env.prod",
+    "lint": "eslint src",
+    "test": "jest src",
+    "bump": "npm version patch -m \"Upgrade to %s for reasons\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
+  "filess": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurikrupnik/express-mid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurikrupnik/express-mid/issues"
+  },
+  "homepage": "https://github.com/yurikrupnik/express-mid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2",
+    "express": "^4.16.4",
+    "husky": "^2.2.0",
+    "jest": "^24.7.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "engines": {
+    "npm": ">= 8"
+  }
+}
