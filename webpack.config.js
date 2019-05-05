@@ -4,6 +4,7 @@ const pkg = require('./package.json');
 module.exports = (env) => {
     const isProd = env ? !!env.prod : false;
     return {
+        target: 'node',
         context: path.resolve(__dirname, 'src'),
         optimization: {
             usedExports: true

@@ -1,6 +1,6 @@
 {
   "name": "express-mid",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "node express middleware module",
   "main": "dist/main.js",
   "module": "dist/main.js",
