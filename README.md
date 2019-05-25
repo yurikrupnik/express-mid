@@ -9,4 +9,7 @@
 ![peerDependencies Status](https://david-dm.org/yurikrupnik/express-mid/peer-status.svg)
 
 # express-mid
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yurikrupnik/express-mid.svg)](https://greenkeeper.io/)
+
 a
