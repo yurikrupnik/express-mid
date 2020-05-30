@@ -33,7 +33,7 @@
   "homepage": "https://github.com/yurikrupnik/express-mid#readme",
   "devDependencies": {
     "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-env": "^7.10.2",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
